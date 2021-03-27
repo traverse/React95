@@ -29,7 +29,6 @@ import ninjaTurtles from './ninjaTurtles';
 import olive from './olive';
 import original from './original';
 import pamelaAnderson from './pamelaAnderson';
-import peggysPastels from './peggysPastels';
 import plum from './plum';
 import polarized from './polarized';
 import powerShell from './powerShell';

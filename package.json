@@ -26,6 +26,7 @@
     "build": "rm -rf dist && npm run build:prod",
     "build:dev": "cross-env NODE_ENV=development rollup -c",
     "build:prod": "cross-env NODE_ENV=production rollup -c",
+    "install": "npm install && npm run build:prod",
     "test": "jest ./src",
     "test:ci": "jest ./src --maxWorkers=2",
     "test:watch": "jest ./src --watch",
